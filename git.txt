@@ -1,0 +1,42 @@
+git --help
+==========
+//ou se trouve le 'git'
+which git
+===
+//creer le git dans dossier
+git init
+===
+//ajouter les ficher de dossier
+git add .
+//ou
+git add nom_dossier
+====
+git commit -m "message"
+======
+//affiche l'auteur & la dernnier modification & la date
+git log
+git log --oneligne
+git log --oneligne master
+git log --oneligne origin/master
+==================
+//affiche les mofication ajouter apree
+git status
+============
+git add test2.txt
+===========
+working->stage index->repostery
+=================
+//affiche les modification dans un fichier
+git diff
+git diff test.txt
+git diff --staged
+git diff --color-words index.html
+========
+//spprimer
+git rm test.txt
+=======================================
+//ronommer un fichier
+git mv nomFicher nouveauNomFichier
+===============
+git commit -am "message"
+=========
