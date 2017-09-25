@@ -1,0 +1,66 @@
+*{
+	margin: 0 ;
+	padding: 0;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: 400px;
+	color: #000;
+	padding: 0 !important;
+}
+a:focus
+{
+	outline: 0;  
+}
+a:hover
+{
+	text-decoration: none;
+}
+ul,ol{
+	margin-bottom:0 !important;
+
+}
+ul
+{
+	list-style: none;
+}
+ul li
+{
+	display: inline-block;
+}
+/*==========================================================
+					|la taille d'écriture|
+==========================================================*/
+h1{
+	font-size: 39px;
+	font-weight: bold;
+}
+h2{
+	font-size: 26px;
+	font-weight: bold;
+}
+h3{
+	font-size: 12px;
+	font-weight: bold;
+}
+p{
+	font-size: 15px;
+}
+/*==========================================================
+					|les couleurs|
+==========================================================*/
+.primary{
+	color: #5db442 !important;
+}
+.primary-bg{
+	background-color: #5db442 !important;
+}
+.secondary{
+	color: #4ca368 !important;
+}
+.secondary-bg{
+	background-color: #4ca368 !important;
+}
+.white{color: #fff !important;}
+.white-bg{background-color: #fff !important;}
